@@ -46,7 +46,7 @@ body {
 
   &:hover {
     background-color: $hover-color;
-    transform: translateY(-20px);
+    transform: translateY(-25px);
     cursor: pointer;
   }
 
@@ -83,6 +83,12 @@ $days: sun, mon, tue, wed, thu, fri, sat;
 // @for $month-length from 28 through 31 {
 //   .calendar__day:nth-child(#{$month-length}) {
 //     display: show;
+//   }
+// }
+
+// .calendar--month-length-28 {
+//   .calendar__day:nth-child(n + 29) {
+//     display: none;
 //   }
 // }
 
